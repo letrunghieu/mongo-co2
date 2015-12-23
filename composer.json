@@ -1,0 +1,32 @@
+{
+    "name": "hieu-le/mongo-co2",
+    "description": "A extension of PHP Carbon to save date time data with timezone to MongoDB",
+    "keywords": [
+        "carbon",
+        "datetime",
+        "timezone",
+        "mongodb"
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hieu Le",
+            "email": "letrunghieu.cse09@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "ext-mongodb": "^1.0",
+        "nesbot/carbon": "^1.21"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HieuLe\\MongoDateTime": "src/"
+        }
+    },
+    "prefer-stable": true
+}
