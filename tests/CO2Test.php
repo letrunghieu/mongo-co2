@@ -35,7 +35,7 @@ class CO2Test extends PHPUnit_Framework_TestCase
     {
         $bson = [
             'timestamp' => 1450838358,
-            'timezone'      => "Asia/Krasnoyarsk",
+            'timezone'  => "Asia/Krasnoyarsk",
         ];
 
         $co2 = new \HieuLe\MongoDateTime\CO2(\Carbon\Carbon::now());
