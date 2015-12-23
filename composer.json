@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HieuLe\\MongoDateTime": "src/"
+            "HieuLe\\MongoDateTime\\": "src/"
         }
     },
     "prefer-stable": true
