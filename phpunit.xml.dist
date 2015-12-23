@@ -11,7 +11,7 @@
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="MongoDB ODM Test Suite">
+        <testsuite name="Package Testsuite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
